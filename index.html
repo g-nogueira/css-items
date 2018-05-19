@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/card.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="styles/loading-spinners.css">
+</head>
+
+<body>
+
+    <section class="container">
+        <div class="card">
+            <div class="card--title">Loading Spinner</div>
+            <div class="card--content">
+                <div class="spinner"></div>
+            </div>
+            <div class="card--meta"></div>
+        </div>
+
+        <div class="card">
+            <div class="card--title">CSS Card example</div>
+            <div class="card--content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorum dolores, doloribus placeat ipsa magnam,
+                totam magni tempore sed deserunt blanditiis repellat aperiam numquam expedita quos esse odio debitis impedit.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam necessitatibus fugit, optio ducimus ad
+                veniam placeat veritatis eveniet recusandae sit praesentium reiciendis, delectus temporibus quaerat enim
+                saepe eius est cum?
+            </div>
+            <div class="card--meta">
+                <section class="card--meta-text">
+                    <span>Modified: 4/5/2018</span>
+                    <span>Created: 4/5/2018</span>
+                </section>
+                <i class="material-icons">delete</i>
+            </div>
+        </div>
+
+        <div class="card card-flat card-form card--large">
+            <div class="card--title">Form Example</div>
+            <form class="form">
+                <div class="form--section">
+                    <label for="defaultLang">Main Language</label>
+                    <select name="" id="defaultLang" class="js-fallbackLanguage">
+                        <option value="en">English</option>
+                        <option value="pt">Português</option>
+                        <option value="es">Spanish</option>
+                        <option value="ru">Russian</option>
+                    </select>
+                </div>
+
+                <div class="form--section">
+                    <label for="popupMode">Popup Mode</label>
+                    <select class="js-popupMode" id="popupMode">
+                        <option value="default">Immediately</option>
+                        <option value="shortcut">On Shortcut</option>
+                    </select>
+                </div>
+
+                <div class="form--section">
+                    <label for="shortcut">Shortcut</label>
+                    <input type="text" id="shortcut" class="js-popupShortcut" placeholder="Enter your shortcut here!">
+                </div>
+
+                <div class="form--section">
+                    <label for="popupMode">AI Languages</label>
+                    <fieldset class="js-nlpLanguages">
+                        <div>
+                            <input type="checkbox" id="pt" value="pt">
+                            <label for="pt">Portuguese</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="en" value="en">
+                            <label for="en">English</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="es" value="es">
+                            <label for="es">Spanish</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="ru" value="ru">
+                            <label for="ru">Russian</label>
+                        </div>
+                    </fieldset>
+                </div>
+            </form>
+    </section>
+</body>
+
+</html>
